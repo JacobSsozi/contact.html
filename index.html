@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+                    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: .8;
+  background-color: #080715;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; color:rgb(113, 238, 91);
+}
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#home">Home</a></li> 
+        <li><a class ="active" href="#contact">Contact</a></li>
+        <li><a href="#about">About and Pricing</a></li>
+      </ul>
+<h1>Contact</h1>
+
+Thank you for visiting our page. We would love to hear from you!
+
+    </br>
+
+    You can reach out at 555-555-5555 or by <a href="mailto:jacob.ssozi@tufts.edu"> email.</a>.
+
+
+</br>
+
+Rate our Services
+
+
+
+ 
+
+<form method="get" action="doaction.php" name="form1" id="form1"> 
+
+	<input type = "radio" name = 'choice'> 1 star 
+	 <input type = "radio" name = 'choice'> 2 stars
+     <input type = "radio" name = 'choice'> 3 stars
+	 <input type = "radio" name = 'choice'> 4 stars
+     <input type = "radio" name = 'choice'> 5 stars
+
+</br>
+
+     <label for ="txtNameId">Name</label> <input type = 'text' name = 'txtName' id='txtNameId'
+     placeholder = "">
+
+	 </br>
+
+
+	 <textarea> Submit a request.</textarea>
+     <button type ="button"
+     onclick="alert('Thank You!')">Submit</button>
+	 <input type = 'reset'>
+</form> 
+</body>
+</html>
